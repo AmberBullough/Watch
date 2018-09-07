@@ -14,6 +14,11 @@
 		20E430C7213C5D8C005DFB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E430C5213C5D8C005DFB71 /* LaunchScreen.storyboard */; };
 		20E430D2213C5D8C005DFB71 /* WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E430D1213C5D8C005DFB71 /* WatchTests.swift */; };
 		20E430DD213C5D8C005DFB71 /* WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E430DC213C5D8C005DFB71 /* WatchUITests.swift */; };
+		20E430F2213C611A005DFB71 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20E430ED213C611A005DFB71 /* digital-7 (italic).ttf */; };
+		20E430F3213C611A005DFB71 /* digital-7 (mono italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20E430EE213C611A005DFB71 /* digital-7 (mono italic).ttf */; };
+		20E430F4213C611A005DFB71 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20E430EF213C611A005DFB71 /* digital-7 (mono).ttf */; };
+		20E430F5213C611A005DFB71 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20E430F0213C611A005DFB71 /* digital-7.ttf */; };
+		20E430F6213C611A005DFB71 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20E430F1213C611A005DFB71 /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		20E430D8213C5D8C005DFB71 /* WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E430DC213C5D8C005DFB71 /* WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUITests.swift; sourceTree = "<group>"; };
 		20E430DE213C5D8C005DFB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E430ED213C611A005DFB71 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		20E430EE213C611A005DFB71 /* digital-7 (mono italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono italic).ttf"; sourceTree = "<group>"; };
+		20E430EF213C611A005DFB71 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		20E430F0213C611A005DFB71 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		20E430F1213C611A005DFB71 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,7 @@
 				20E430BC213C5D8B005DFB71 /* AppDelegate.swift */,
 				20E430BE213C5D8B005DFB71 /* ViewController.swift */,
 				20E430C0213C5D8B005DFB71 /* Main.storyboard */,
+				20E430EC213C611A005DFB71 /* digital-7 */,
 				20E430C3213C5D8C005DFB71 /* Assets.xcassets */,
 				20E430C5213C5D8C005DFB71 /* LaunchScreen.storyboard */,
 				20E430C8213C5D8C005DFB71 /* Info.plist */,
@@ -123,6 +134,18 @@
 				20E430DE213C5D8C005DFB71 /* Info.plist */,
 			);
 			path = WatchUITests;
+			sourceTree = "<group>";
+		};
+		20E430EC213C611A005DFB71 /* digital-7 */ = {
+			isa = PBXGroup;
+			children = (
+				20E430ED213C611A005DFB71 /* digital-7 (italic).ttf */,
+				20E430EE213C611A005DFB71 /* digital-7 (mono italic).ttf */,
+				20E430EF213C611A005DFB71 /* digital-7 (mono).ttf */,
+				20E430F0213C611A005DFB71 /* digital-7.ttf */,
+				20E430F1213C611A005DFB71 /* readme.txt */,
+			);
+			path = "digital-7";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +252,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E430F4213C611A005DFB71 /* digital-7 (mono).ttf in Resources */,
 				20E430C7213C5D8C005DFB71 /* LaunchScreen.storyboard in Resources */,
 				20E430C4213C5D8C005DFB71 /* Assets.xcassets in Resources */,
+				20E430F5213C611A005DFB71 /* digital-7.ttf in Resources */,
+				20E430F3213C611A005DFB71 /* digital-7 (mono italic).ttf in Resources */,
 				20E430C2213C5D8B005DFB71 /* Main.storyboard in Resources */,
+				20E430F6213C611A005DFB71 /* readme.txt in Resources */,
+				20E430F2213C611A005DFB71 /* digital-7 (italic).ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
